@@ -17,4 +17,8 @@ public class AulasController {
 		return "aula2";
 	}
 	
+	@GetMapping("/aula3")
+	public String aula3() {
+		return "aula3";
+	}
 }
