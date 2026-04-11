@@ -31,4 +31,29 @@ public class AulasController {
 	public String aula5() {
 		return "aula5_background";
 	}
+	
+	@GetMapping("/aula6")
+	public String aula6() {
+		return "aula6_largura-e-altura";
+	}
+	
+	@GetMapping("/aula7")
+	public String aula7() {
+		return "aula7_flexbox";
+	}
+	
+	@GetMapping("/aula8")
+	public String aula8() {
+		return "aula8_grid";
+	}
+	
+	@GetMapping("/aula9")
+	public String aula9() {
+		return "aula9_responsividade";
+	}
+	
+	@GetMapping("/aula10")
+	public String aula10() {
+		return "aula10_estados";
+	}
 }
