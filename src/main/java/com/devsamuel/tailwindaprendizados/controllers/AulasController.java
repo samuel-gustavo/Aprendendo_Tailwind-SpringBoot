@@ -56,4 +56,24 @@ public class AulasController {
 	public String aula10() {
 		return "aula10_estados";
 	}
+	
+	@GetMapping("/aula11")
+	public String aula11() {
+		return "aula11_arquivo-de-configuracao";
+	}
+	
+	@GetMapping("/aula12")
+	public String aula12() {
+		return "aula12_modo-escuro";
+	}
+	
+	@GetMapping("/aula13")
+	public String aula13() {
+		return "aula13_criando-classes-customizadas";
+	}
+	
+	@GetMapping("/aula14")
+	public String aula14() {
+		return "aula14_componente-card";
+	}
 }

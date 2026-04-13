@@ -1,0 +1,27 @@
+{
+  "name": "tailwindaprendizados",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"dev": "npx tailwindcss --config tailwind.config.cjs -i ./src/main/resources/static/css/input.css -o ./src/main/resources/static/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-gustavo/Aprendendo_Tailwind-SpringBoot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-gustavo/Aprendendo_Tailwind-SpringBoot/issues"
+  },
+  "homepage": "https://github.com/samuel-gustavo/Aprendendo_Tailwind-SpringBoot#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  }
+}
